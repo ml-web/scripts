@@ -2,9 +2,9 @@
 require_once($_SERVER['DOCUMENT_ROOT'] . "/bitrix/modules/main/include/prolog_before.php");
 
 // Добавить в группу
-// https://www.mediasphera.ru/scripts/registerAPI.php?new_user=Y&EMAIL=79041602509@ya.ru&PERSONAL_GENDER=M&SECOND_NAME=Анатольевич&NAME=Андрей&LAST_NAME=Соловьев
+// registerAPI.php?new_user=Y&EMAIL=79041602509@ya.ru&PERSONAL_GENDER=M&SECOND_NAME=Анатольевич&NAME=Андрей&LAST_NAME=Соловьев
 // удалить из группы
-// https://www.mediasphera.ru/scripts/registerAPI.php?new_user=N&EMAIL=79041602509@ya.ru&PERSONAL_GENDER=M&SECOND_NAME=Анатольевич&NAME=Андрей&LAST_NAME=Соловьев
+// registerAPI.php?new_user=N&EMAIL=79041602509@ya.ru&PERSONAL_GENDER=M&SECOND_NAME=Анатольевич&NAME=Андрей&LAST_NAME=Соловьев
 
 global $USER;
 $access = false; // изменил 28.12.2020
